@@ -8,3 +8,8 @@ We will cover the following topics:
 - Hands-on experience: together, we will build some basic models for time series forecasting
 - A presentation of an advanced demand forecasting implementation using time series forecasting
 
+## Run project
+``` bash
+docker run -it --rm -p 8888:8888 -v <absolute_path_to_course_material>:/home/jovyan/work jupyter/datascience-notebook:2023-05-15
+```
+Navigate to `http://localhost:8888/?token=<token>`, replace `<token>` with token found in startup logs.
